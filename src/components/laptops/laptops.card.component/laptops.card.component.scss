@@ -1,0 +1,38 @@
+.row .col-4 {
+  padding: 10px;
+  .laptops-card-container {
+    background-color: rgb(217, 220, 20);
+    padding: 10px;
+    cursor: pointer;
+    .laptops-laptop-name {
+      background-color: blue;
+      margin-bottom: 10px;
+      font-size: 1vw;
+      font-weight: 450;
+      padding: 5px;
+    }
+    img {
+      width: 100%;
+    }
+    .laptops-laptop-description {
+      background-color: chocolate;
+      margin: 10px 0px;
+      font-size: 0.8vw;
+      font-weight: 400;
+      padding: 5px;
+      height: 60px;
+      overflow-y: scroll;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    .laptops-laptop-description::-webkit-scrollbar {
+      display: none;
+    }
+    .laptops-laptop-price {
+      font-size: 1.2vw;
+      font-weight: 300;
+      background-color: darkmagenta;
+      padding: 5px;
+    }
+  }
+}

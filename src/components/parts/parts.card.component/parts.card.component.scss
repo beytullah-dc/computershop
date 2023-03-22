@@ -1,0 +1,39 @@
+.row .col-4 {
+    padding: 10px;
+    .parts-card-container {
+      background-color: rgb(217, 220, 20);
+      padding: 10px;
+      cursor: pointer;
+      .parts-part-name {
+        background-color: blue;
+        margin-bottom: 10px;
+        font-size: 1vw;
+        font-weight: 450;
+        padding: 5px;
+      }
+      img {
+        width: 100%;
+      }
+      .parts-part-description {
+        background-color: chocolate;
+        margin: 10px 0px;
+        font-size: 0.8vw;
+        font-weight: 400;
+        padding: 5px;
+        height: 60px;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        overflow-y: scroll;
+      }
+      .parts-part-description::-webkit-scrollbar {
+        display: none;
+      }
+      .parts-part-price {
+        font-size: 1.2vw;
+        font-weight: 300;
+        background-color: darkmagenta;
+        padding: 5px;
+      }
+    }
+  }
+  

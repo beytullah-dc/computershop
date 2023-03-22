@@ -1,0 +1,13 @@
+.computers-category-container {
+  background-color: aqua;
+  margin: 10px auto;
+  padding: 5px;
+  .row {
+    padding: 0px 10px;
+    height: 40px;
+    .col-1 {
+      font-size: 0.9vw;
+      font-weight: 400;
+    }
+  }
+}

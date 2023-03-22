@@ -1,0 +1,38 @@
+.row .col-4 {
+  padding: 10px;
+  .computers-card-container {
+    background-color: rgb(217, 220, 20);
+    padding: 10px;
+    cursor: pointer;
+    .computers-computer-name {
+      background-color: blue;
+      margin-bottom: 10px;
+      font-size: 1vw;
+      font-weight: 450;
+      padding: 5px;
+    }
+    img {
+      width: 100%;
+    }
+    .computers-computer-description {
+      background-color: chocolate;
+      margin: 10px 0px;
+      font-size: 0.8vw;
+      font-weight: 400;
+      padding: 5px;
+      height: 60px;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      overflow-y: scroll;
+    }
+    .computers-computer-description::-webkit-scrollbar {
+      display: none;
+    }
+    .computers-computer-price {
+      font-size: 1.2vw;
+      font-weight: 300;
+      background-color: darkmagenta;
+      padding: 5px;
+    }
+  }
+}
